@@ -61,7 +61,15 @@ export default {
 					'accent-foreground': 'hsl(var(--sidebar-accent-foreground))',
 					border: 'hsl(var(--sidebar-border))',
 					ring: 'hsl(var(--sidebar-ring))'
-				}
+				},
+				'dark-primary': 'hsl(var(--dark-primary))',
+				'dark-secondary': 'hsl(var(--dark-secondary))',
+				'dark-accent': 'hsl(var(--dark-accent))',
+				'dark-glow': 'hsl(var(--dark-glow))',
+				'dark-text': 'hsl(var(--dark-text))',
+			},
+			backgroundImage: {
+				'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
 			},
 			borderRadius: {
 				lg: 'var(--radius)',
