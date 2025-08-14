@@ -18,17 +18,17 @@ const Index = () => {
           {/* Logo - supports GIF */}
           <Logo className="mb-8" />
           
-          {/* Central glowing orb */}
-          <div className="glow-orb w-64 h-64 mx-auto relative">
-            <div className="absolute inset-0 bg-gradient-to-r from-dark-accent via-dark-glow to-dark-accent rounded-full opacity-80"></div>
+          {/* Barely visible central element */}
+          <div className="w-64 h-64 mx-auto relative">
+            <div className="absolute inset-0 bg-dark-accent rounded-full opacity-20"></div>
           </div>
           
-          {/* Dark token branding */}
-          <div className="space-y-4">
-            <h1 className="text-6xl font-bold text-dark-glow font-mono tracking-wider dark-glow">
+          {/* Hidden branding - barely visible */}
+          <div className="space-y-4 opacity-10">
+            <h1 className="text-6xl font-bold text-dark-text font-mono tracking-wider">
               $DARK
             </h1>
-            <p className="text-xl text-dark-text font-medium">
+            <p className="text-xl text-dark-text font-medium opacity-50">
               Enter the Dark Side of DeFi
             </p>
           </div>
